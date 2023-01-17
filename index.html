@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora simples</h1>
+
+    </header>
+  <main>
+    <div id="container">
+        <input type="number" name="" id="Numero1"><br>
+        <input type="number" name="" id="Numero2"> <br>
+        <input type="button" value="+" id="somar" onclick="soma()">
+        <input type="button" value="-" id="subtrair" onclick="subtrair()"><br>
+        <input type="button" value="x" id="multiplicar" onclick="multi()">
+        <input type="button" value="÷" id="dividir"onclick="Divi()" ><br>
+        <input type="button" value="%" id="limpar" onclick="Resto()">
+        <input type="button" value="C" id="resultado" onclick="Limpa()"><br>
+        <p id="resul"></p>
+    </div>
+
+  </main>
+ <footer><p>Feito por <a href="https://github.com/MarcosViniSil" target="_blank" rel="external">MarcosVinicius</a></p></footer>
+
+
+ <script src="Calcular.js"></script>
+</body>
+</html>
